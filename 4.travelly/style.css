@@ -1,0 +1,115 @@
+/*global styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+li,
+button,
+label,
+input,
+p {
+    font-size: 1.6rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size: 2.6rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4, h5 {
+    font-size: 1rem;
+}
+button{
+    padding: 1rem 2rem;
+    background: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
+
+/*end of global style*/
+
+.main-head{
+    background: #131c27;
+    color: white;
+}
+
+nav {
+    min-height: 10vh;
+    padding: 1vh; /* to see good efferect when size reduces*/
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#logo{
+    flex: 2 1 40rem;
+    font-family: 'Pattaya', sans-serif;
+    font-weight: normal;
+}
+.hero{
+    /*background: url('img/landing-page.jpg'); bydefault it will just fit to content hight, need extra below css to fix the problem*/
+    background: linear-gradient(rgba(0, 0, 0, 0.5),transparent), url('img/landing-page.jpg');
+    min-height: 90vh;
+    /*put  image to proper screen*/
+    background-size: cover; 
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h3{
+    padding:2rem;
+}
+
+@media screen and (max-width: 900px){
+    html{
+        font-size: 55%;
+    }
+    nav{
+        text-align: center;
+    }
+    #logo{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media screen and (max-width: 250px){
+    html{
+        font-size: 40%;
+    }
+}

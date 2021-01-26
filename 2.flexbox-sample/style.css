@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 30rem;
+    width: 35rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+
+}
+.box{
+    height: 5rem;
+    width: 5rem;
+}
+
+.box1{
+    background: blueviolet;
+   align-self: center;
+}
+.box2{
+    background: rgb(43, 46, 226);
+}
+.box3{
+    background: rgb(218, 133, 36); 
+}
+.box4{
+    background: rgb(206, 27, 161);
+}
+.box5{
+    background: rgb(27, 196, 64);
+}

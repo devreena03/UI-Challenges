@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+   background: darkcyan;
+   height: 3rem;
+}
+
+nav h1{
+    float: left;
+    padding-top: .8rem;
+    padding-left: 2rem;
+}
+nav ul{
+    float:right;
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    margin: 0 2rem;
+}
+
+.content{
+    background-image: url("./naan.jpg");
+    height: 60rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+}
+
+form label, form input, form textarea {
+    display: block;
+    text-align: center;
+   
+}
+
+form input,  form textarea {
+    margin: .5rem auto;
+    width: 40%;
+}
+
+
+
