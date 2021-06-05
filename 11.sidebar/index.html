@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Side Menu</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/5695d3fd62.js" crossorigin="anonymous"></script>
+    <script src="tabs.js"></script>
+
+</head>
+<body>
+   <div class="wrapper">
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <ul>
+                <li class="tab active"><a onclick="tabs('home')"><i class="fas fa-home"></i>Home</a></li>
+                <li class="tab"><a onclick="tabs('profile')"><i class="fas fa-user"></i>Profile</a></li>
+                <li class="tab"><a onclick="tabs('contact')"><i class="fas fa-address-card"></i>Contact Us</a></li>
+                <li class="tab"><a onclick="tabs('blog')"><i class="fas fa-blog"></i>Blog</a></li>
+            </ul>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                
+            </div>
+        </div>
+        <div class="content">
+            <div class="header">
+                <h3 class="title" id="headerId">Home</h3>
+                <!-- <div class="avatar"><i class="fas fa-user-circle fa-2x"></i></div> -->
+                <div class="profile_pic"><img src="profile.png" alt="profile_pic"></div>
+                <div class="elipsis"><i class="fas fa-ellipsis-v"></i></div>
+            </div>
+            <div class="info"></div>
+            <div class="footer">
+                <h5>&copy; reena-org.com</h5>
+            </div>
+        </div>
+   </div>
+</body>
+</html>
